@@ -52,7 +52,7 @@ def main():
                 if counter_mult * base_counter_weight == ball_mult * base_ball_weight:
                     print(f'Fulcrum: {pos}')
                     print(f'Materials: {list(combo)}')
-                    print(f'Weight: {counter_mult} * {base_counter_weight} == {ball_mult} * {base_ball_weight}\n')
+                    print(f'Moments: {counter_mult} * {base_counter_weight} == {ball_mult} * {base_ball_weight}\n')
 
 
 if __name__ == '__main__':
